@@ -21,9 +21,7 @@ public class KnightsTourNode {
 		this.i = i;
 		this.j = j;
 
-		if(parent != null){
-			this.b[i][j] = true;
-		}
+		this.b[i][j] = true;
 		
 		this.n = n;
 		this.k = k;

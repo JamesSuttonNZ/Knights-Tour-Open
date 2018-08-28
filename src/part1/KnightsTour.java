@@ -5,6 +5,11 @@ import java.util.Arrays;
 
 import ecs100.UI;
 
+/**
+ * Calculates and displays an open knights tour of an nxn board where n>=5
+ * @author James Sutton
+ *
+ */
 public class KnightsTour {
 	
 	private static int n;
